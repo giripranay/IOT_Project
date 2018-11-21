@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<title>IOT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container">
+
+<h2><b>DUSTBINS</b></h2>
+
+<h3>BIN1</h3>
+<div class="w3-light-grey w3-large">
+  <div id="Bin1" class="w3-container w3-green w3-center w3-round-xlarge" style="width:0%">{{latest.value}}%</div>
+</div><br>
+
+<script>
+  var my_height={{latest.value}};
+  document.getElementById('Bin1').style.width = my_height + "%";
+</script>
+
+<h3>BIN2</h3>
+<div class="w3-light-grey  w3-large">
+  <div class="w3-container w3-red w3-center w3-round-xlarge" style="width:50%">50%</div>
+</div><br>
+<h3>BIN3</h3>
+<div class="w3-light-grey  w3-large">
+  <div class="w3-container w3-blue w3-center w3-round-xlarge" style="width:75%">75%</div>
+</div><br>
+
+</div>
+
+
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15514.333072555626!2d80.01875492561037!3d13.561136891951636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d773f1e0f8721%3A0xadb0842ffc2719e4!2sIndian+Institute+of+Information+Technology+Sri+City!5e0!3m2!1sen!2sin!4v1542382604930" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+{%for i in values%}
+
+    {{i.id}}
+    {{i.value}}
+    {{i.date}}
+<br>
+{%endfor%}
+
+
+
+{{count}}
+{{count2}}
+
+<br>
+{{latest}}
