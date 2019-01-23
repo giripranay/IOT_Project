@@ -13,3 +13,9 @@ Functionalities:
 
 In this repository,I kept the entire django application of my IOT_project which is the software part of my IOT_project .
 I did not give the entire details of my hardware.
+
+I hosted this web application on pythonanywhere hosting platform.Visit following URL to visit my web application
+
+https://giripranay.pythonanywhere.com/IOT_app/
+
+Or else open the screenshot.pdf file to view my web application.
