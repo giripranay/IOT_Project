@@ -11,4 +11,5 @@ Functionalities:
      4.My hardware include Nodemcus(wifi module),Raspberrypi,bluetooth modulues and ultrasonic sensors.
      5.What my hardware does is sense the data and send to cloud.
 
-In this repository,I kept the entire django application of my IOT_project.I did not give the entire details of my hardware.
+In this repository,I kept the entire django application of my IOT_project which is the software part of my IOT_project .
+I did not give the entire details of my hardware.
